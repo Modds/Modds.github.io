@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>Modd's Sweets and Eats</title>
+<meta name="description" content="Modd's Sweets and Eats, a food, coffee, and dessert cafe in Moundridge, Kansas.">
+<meta name="keywords" content="breakfast, lunch, coffee, homemade, treats, desserts, bakery, local, free wifi">
+<link href="style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body><div class="width">
+
+<header role="banner" class="header">
+<table class="menutab"><tr><td>
+<p><h2>1321 S. Christian Ave.<br>Moundridge, KS 67107<br>(620) 345-2944</h2></p>
+</td></tr></table>
+<h1 id="top">Modd's Sweets & Eats</h1>
+<h2>A bakery and cafe focused on quality coffee, <br>desserts, breakfast and lunch!</h2>
+<h3>Open Monday - Friday 6am - 5pm <br>Saturday 7am - 2pm</h3>
+<nav class="nav-main">
+	<ul>
+		<li><a class="b" href="index.html">HOME</a></li>
+<li><a class="b" href="menus.html">MENUS</a></li>
+<li><a class="b" href="about.html">ABOUT</a></li>
+<li><a class="b" href="contact.html">CONTACT</a></li>
+	</ul>
+</nav>
+</header>
+
+<!--<div class="container clearfix">
+<header>
+<table class="menutab"><tr><td>
+<p><h2>1321 S. Christian Ave.<br>Moundridge, KS 67107<br>(620) 345-2944</h2></p>
+</td></tr></table>
+<h1 id="top">Modd's Sweets & Eats</h1>
+
+<h2>A bakery and cafe focused on quality coffee, <br>desserts, breakfast and lunch!</h2>
+<div class=nav-unit">
+<table class="center"><tr><td>
+<h3>Open Monday - Friday 6am - 5pm <br>Saturday 7am - 2pm</h3>
+<nav><h4><ul>
+<li><a class="b" href="index.html">HOME</a></li>
+<li><a class="b" href="menus.html">MENUS</a></li>
+<li><a class="b" href="about.html">ABOUT</a></li>
+<li><a class="b" href="contact.html">CONTACT</a></li>
+</ul></h4></nav>
+</td></tr></table>
+</nav> -->
+
+</header>
+
+<main role="main">
+<h4>Welcome to Modd's!</h4>
+<img class="displayed" src="front.jpg" width="600" height="365" alt="Front view of Modd's cafe."/>
+
+<p class="blocktext">Here at Modd’s Sweets & Eats, we have something for everyone. Come in early to join us for breakfast and coffee, or stop by in the afternoon for a delicious lunch. The treats we create in our bakery will satisfy any sweet tooth. Be sure to ask about our custom orders for your next special event!</p>
+<p class="blocktext">Click on the Menus tab above to see our food and drink menus, and go to our <a href="https://www.facebook.com/pages/Modds-sweets-eats/126137490905964" title="Link to Modd's facebook page">Facebook</a> page to check out our daily specials. Afraid you’ll miss one of your favorite Modd’s treats? “Like” us on Facebook and you’ll be the first to know when we create something special! </p>
+<p class="blocktext">Whether you’re looking for quality coffee and desserts, breakfast, lunch, or <em>free WiFi</em>, Modd’s Sweets & Eats is the place to be. Come on down and see us!</p>
+<p class="center"><a href="#top">Back to top</a>
+</main>
+
+
+<footer>
+<hr>
+
+<a href="http://studentaccess.emporia.edu/~pschrei1/modds/index.html"><img class="modd" src="logo.jpg" alt="Modd's logo." title="Go to Modd's home page"></a>
+<!--<img class="modd2" src="logo.jpg" alt="Modd's logo."> -->
+<a href="https://www.facebook.com/pages/Modds-sweets-eats/126137490905964"><img class="face" src="face.jpg" alt="Facebook logo" title="Go to Modd's facebook page"></a>
+
+<SCRIPT>
+var dayName = new Array ("Sunday", "Monday", "Tuesday", "Wednesday",
+                                              "Thursday", "Friday", "Saturday");
+
+var monthName = new Array ("January", "February", "March", "April", "May",
+                                                  "June", "July", "August", "September", "October",
+                                                  "November", "December");
+
+var now = new Date();
+
+</SCRIPT>
+
+
+<SCRIPT>
+
+// getDay() -- day of the week (a number between 0 - 6)
+// getMonth() -- month of the year (a number between 0 - 11)
+// getDate() -- day of the month (a number between 1 - 31)
+document.write("<H5>Today is " +
+                          dayName[now.getDay()] + ", " +
+                          monthName[now.getMonth()] + " " +
+                          now.getDate() + ". Please allow 48 hours for special orders.</H5>")
+
+</SCRIPT>
+<p class="center"><small>&#169; 2014 Modd's Sweets and Eats</small></p>
+</footer>
+
+</div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-53265728-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+
+</html>
